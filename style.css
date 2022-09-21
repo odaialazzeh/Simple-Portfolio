@@ -6,14 +6,27 @@
     background-image: url("images/Group 35.svg");
     background-repeat: no-repeat;
     background-position: center 4.5em;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     margin: 0;
   }
 
-  nav {
+  header {
     display: flex;
     justify-content: space-between;
     margin: 0 1em 0;
+  }
+
+  header h1 {
+    font-size: 1.2em;
+  }
+
+  header a {
+    text-decoration: none;
+    color: #172b4d;
+  }
+
+  nav {
+    margin-top: 1em;
   }
 
   .headline h1 {
