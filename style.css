@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 400px) {
   body {
     color: #172b4d;
     background-image: url("images/Group 35.svg");
@@ -30,11 +30,9 @@
   }
 
   .headline h1 {
-    position: relative;
-    top: 1em;
-    font-size: 2.5em;
+    font-size: 2em;
     text-align: center;
-    margin: 1em 2em 0;
+    margin: 2em 2em;
   }
 
   .headline h1 span {
@@ -45,7 +43,7 @@
   .headline p {
     font-size: medium;
     text-align: center;
-    margin: 5em 6em 3em;
+    margin: 3em 2.2em;
   }
 
   .social-media-icons {
@@ -58,38 +56,230 @@
   }
 
   .imgs {
-    display: block;
+    position: absolute;
   }
 
   .imgs #img1 {
-    float: right;
+    position: relative;
+    top: -8em;
+    left: 18.6em;
   }
 
   .imgs #img2 {
-    float: right;
-    margin: 40em -5em 5em;
+    position: relative;
+    right: -15em;
+    top: 22em;
   }
 
   .imgs #img3 {
-    float: left;
-    margin: 30em 0 0;
+    position: relative;
+    left: -8.67em;
+    top: 17em;
   }
 
   .imgs #img4 {
-    float: left;
-    margin: 6em 0 0;
+    position: relative;
+    right: 10em;
+    bottom: 6em;
     opacity: 0.5;
   }
 
   .imgs #img5 {
-    float: right;
-    margin: 20em -5em 0;
+    position: relative;
+    right: -7.07em;
+    top: 7em;
   }
 
   .imgs #img6 {
-    float: left;
     position: relative;
-    left: 8em;
-    margin-top: 30em;
+    top: 15em;
+    right: 7em;
+  }
+
+  #btn {
+    display: block;
+    margin: 2em auto;
+  }
+
+  .work h2 {
+    font-size: 3em;
+    text-align: center;
+    margin: 0 1em 0;
+  }
+
+  .work #img10 {
+    display: block;
+    margin: 1em auto 3em;
+  }
+
+  .work .container {
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 1px solid #d0d9d4;
+    background-color: #d0d9d4;
+    margin: 1.5em;
+    border-radius: 0.5em;
+  }
+
+  .work .container .sub-container {
+    text-align: center;
+    margin-top: 20em;
+    border: none;
+    border-radius: 0.5em;
+    background-color: white;
+  }
+
+  .container-form h3 {
+    margin-top: -0.5em;
+    font-weight: normal;
+    font-size: 1.3em;
+    color: #42526e;
+    text-align: center;
+  }
+
+  .about-me .container-about h3 {
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  .work .container .sub-container h3 {
+    color: #3a4a42;
+    font-size: 1.5em;
+    margin: 0.5em 2em 0.5em;
+  }
+
+  .about-me .container-about ul {
+    margin-left: -2.2em;
+    list-style-type: none;
+    text-align: center;
+  }
+
+  .work .container .sub-container ul {
+    margin-left: -2.5em;
+    list-style-type: none;
+  }
+
+  .about-me .container-about ul li {
+    display: inline-block;
+    border: none;
+    background-color: white;
+    color: #36b37e;
+    margin-bottom: 0.5em;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    font-size: small;
+    font-weight: normal;
+  }
+
+  .work .container .sub-container ul li {
+    display: inline;
+    border: none;
+    background-color: #ebf0ee;
+    color: #3a4a42;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    font-size: small;
+    font-weight: normal;
+  }
+
+  .about-me a {
+    border: none;
+    background-color: #36b37e;
+    padding: 1em;
+    width: 150px;
+    height: 25px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin: 1.6em auto;
+    border-radius: 0.5em;
+  }
+
+  .work .container .sub-container a {
+    border: none;
+    background-color: #36b37e;
+    padding: 1em;
+    width: 100px;
+    height: 25px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin: 1.4em auto;
+    border-radius: 0.5em;
+  }
+
+  .about-me h2 {
+    font-size: 3em;
+    text-align: center;
+  }
+
+  .about-me p {
+    margin: 2em 4.7em 0;
+    text-align: center;
+  }
+
+  .about-me #img7 {
+    float: right;
+    margin-top: -8em;
+  }
+
+  .about-me #img8 {
+    float: left;
+    margin-top: -5em;
+  }
+
+  .about-me .container-about {
+    margin: 2em 1.6em;
+    background-color: #ebf0ee;
+    border-radius: 0.5em;
+    height: 350px;
+    width: 325px;
+  }
+
+  .about-me .container-about .a-img {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+  }
+
+  .about-me .container-about #img9 {
+    margin-top: 2em;
+    width: 60%;
+    height: 150px;
+  }
+
+  .container-form p {
+    margin: 2em 1em 2em;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  .container-form input[type=text] {
+    display: block;
+    border: 1px solid #d0d9d4;
+    width: 80%;
+    margin: 0 auto 1em;
+    padding: 1em;
+  }
+
+  .container-form textarea {
+    display: block;
+    border: 1px solid #d0d9d4;
+    width: 80%;
+    margin: 0 auto 1em;
+    padding: 1em;
+  }
+
+  .container-form input[type=submit] {
+    display: block;
+    margin: 0 auto 3em;
+    border: none;
+    padding: 1em;
+    color: white;
+    background-color: #36b37e;
+    border-radius: 0.5em;
   }
 }
