@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 400px) {
   body {
     color: #172b4d;
     background-image: url("images/Group 35.svg");
@@ -30,11 +30,9 @@
   }
 
   .headline h1 {
-    position: relative;
-    top: 1em;
-    font-size: 2.5em;
+    font-size: 2em;
     text-align: center;
-    margin: 1em 2em 0;
+    margin: 2em 2em;
   }
 
   .headline h1 span {
@@ -45,7 +43,7 @@
   .headline p {
     font-size: medium;
     text-align: center;
-    margin: 5em 6em 3em;
+    margin: 3em 2.2em;
   }
 
   .social-media-icons {
@@ -58,52 +56,55 @@
   }
 
   .imgs {
-    display: block;
+    position: absolute;
   }
 
   .imgs #img1 {
-    float: right;
+    position: relative;
+    top: -8em;
+    left: 18.6em;
   }
 
   .imgs #img2 {
-    float: right;
-    margin: 40em -5em 5em;
+    position: relative;
+    right: -15em;
+    top: 22em;
   }
 
   .imgs #img3 {
-    float: left;
-    margin: 30em 0 0;
+    position: relative;
+    left: -8.67em;
+    top: 17em;
   }
 
   .imgs #img4 {
-    float: left;
-    margin: 6em 0 0;
+    position: relative;
+    right: 10em;
+    bottom: 6em;
     opacity: 0.5;
   }
 
   .imgs #img5 {
-    float: right;
-    margin: 20em -5em 0;
+    position: relative;
+    right: -7.07em;
+    top: 7em;
   }
 
   .imgs #img6 {
-    float: left;
     position: relative;
-    left: 8em;
-    margin-top: 30em;
+    top: 15em;
+    right: 7em;
   }
 
   #btn {
     display: block;
-    position: relative;
-    left: 50%;
-    top: 4em;
+    margin: 2em auto;
   }
 
   .work h2 {
     font-size: 3em;
     text-align: center;
-    margin: 2em 1em 0;
+    margin: 0 1em 0;
   }
 
   .work #img10 {
@@ -128,11 +129,6 @@
     background-color: white;
   }
 
-  .work .container .sub-container .empty {
-    border: none;
-    border-radius: 0.5em;
-  }
-
   .container-form h3 {
     margin-top: -0.5em;
     font-weight: normal;
@@ -149,19 +145,18 @@
   .work .container .sub-container h3 {
     color: #3a4a42;
     font-size: 1.5em;
-    margin: 0.5em 3em 0.5em;
+    margin: 0.5em 2em 0.5em;
   }
 
   .about-me .container-about ul {
-    margin: 2em auto;
+    margin-left: -2.2em;
     list-style-type: none;
     text-align: center;
   }
 
   .work .container .sub-container ul {
-    margin: 0 2em 0;
+    margin-left: -2.5em;
     list-style-type: none;
-    text-align: left;
   }
 
   .about-me .container-about ul li {
@@ -169,12 +164,11 @@
     border: none;
     background-color: white;
     color: #36b37e;
-    padding: 0.5em;
-    margin: 0.5em 0.5em;
+    margin-bottom: 0.5em;
+    padding: 0.5em 1em;
     border-radius: 0.5em;
     font-size: small;
     font-weight: normal;
-    text-align: center;
   }
 
   .work .container .sub-container ul li {
@@ -182,12 +176,10 @@
     border: none;
     background-color: #ebf0ee;
     color: #3a4a42;
-    padding: 0.5em;
-    margin: 0.4em;
+    padding: 0.5em 1em;
     border-radius: 0.5em;
     font-size: small;
     font-weight: normal;
-    text-align: center;
   }
 
   .about-me a {
@@ -230,7 +222,7 @@
 
   .about-me #img7 {
     float: right;
-    margin-top: -10em;
+    margin-top: -8em;
   }
 
   .about-me #img8 {
@@ -243,7 +235,7 @@
     background-color: #ebf0ee;
     border-radius: 0.5em;
     height: 350px;
-    width: 430px;
+    width: 325px;
   }
 
   .about-me .container-about .a-img {
@@ -271,7 +263,6 @@
     width: 80%;
     margin: 0 auto 1em;
     padding: 1em;
-    border-radius: 0.5em;
   }
 
   .container-form textarea {
@@ -280,7 +271,6 @@
     width: 80%;
     margin: 0 auto 1em;
     padding: 1em;
-    border-radius: 0.5em;
   }
 
   .container-form input[type=submit] {
