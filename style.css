@@ -271,7 +271,7 @@
     width: 80%;
     margin: 0 auto 1em;
     padding: 1em;
-    border-radius: 0.5em;
+    border-radius: .5em;
   }
 
   .container-form textarea {
@@ -280,7 +280,8 @@
     width: 80%;
     margin: 0 auto 1em;
     padding: 1em;
-    border-radius: 0.5em;
+    border-radius: .5em;
+    border-radius: .5em;
   }
 
   .container-form input[type=submit] {
