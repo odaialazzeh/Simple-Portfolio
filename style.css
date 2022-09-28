@@ -149,13 +149,29 @@
   }
 
   .about-me .container-about ul {
-    margin-left: -2.2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    margin: 0 auto;
+    max-width: 350px;
+    gap: 0.5em;
     list-style-type: none;
-    text-align: center;
+
   }
 
   .work .container .sub-container ul {
-    margin-left: -2.5em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    margin: 0 auto;
+    max-width: 350px;
+    gap: 0.5em;
     list-style-type: none;
   }
 
@@ -172,11 +188,10 @@
   }
 
   .work .container .sub-container ul li {
-    display: inline;
     border: none;
     background-color: #ebf0ee;
     color: #3a4a42;
-    padding: 0.5em 1em;
+    padding: 0.5em;
     border-radius: 0.5em;
     font-size: small;
     font-weight: normal;
@@ -275,7 +290,7 @@
     border-radius: 0.5em;
   }
 
-  .container-form input[type=submit] {
+  .container-form button{
     display: block;
     margin: 0 auto 3em;
     border: none;
