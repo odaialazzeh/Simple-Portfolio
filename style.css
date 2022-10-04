@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
-@media only screen and (max-width: 400px) {
+
   body {
     color: #172b4d;
     background-image: url("images/Group 35.svg");
     background-repeat: no-repeat;
-    background-position: center 4.5em;
+    background-position: left 4.5em;
     font-family: "Poppins", sans-serif;
     margin: 0;
+    width: 23.5em;
   }
 
   header {
@@ -333,4 +334,4 @@
     right: 0;
     top: -9em;
   }
-}
+
