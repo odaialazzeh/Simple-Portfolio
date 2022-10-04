@@ -160,14 +160,25 @@
             </section>
 
             <div class="container-form">
-                <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
-                <form action="#">
-                    <input type="text" name="full name" id="name" placeholder="Full name">
-                    <input type="text" name="Email address" id="email" placeholder="Email address">
-                    <textarea name="textarea" id="text-area" cols="30" rows="10" placeholder="Enter text here"></textarea>
-                    <button type="submit">Get in touch</button>
-                </form>
-
+                <div class="sub-container-form">
+                    <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+                    <form action="https://formspree.io/f/mnqrvglb" method="post">
+                        <ul>
+                            <li>
+                                <input type="text" name="full name" id="Full-name" placeholder="Full name" minlength="1" maxlength="30" required>
+                            </li>
+                            <li>
+                                <input type="email" name="Email address" id="email" placeholder="Email address" required  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                            </li>
+                            <li>
+                                <textarea name="textarea" id="text-area" cols="30" rows="10" placeholder="Enter text here" required minlength="1" maxlength="500"></textarea>
+                            </li>
+                            <li>
+                                <button type="submit">Get in touch</button>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
                 
             <div class="social-media-icons">
                 <a href="#"> <img src="images/twitter.svg" alt=""> </a>
@@ -176,7 +187,7 @@
                 <a href="#"> <img src="images/github.svg" alt=""> </a>
                 <a href="#"> <img src="images/angellist.svg" alt=""> </a>
             </div>
-
+            <div class="form-img"><img id="img-13" src="images/Frame-1.svg" alt=""> 
             <h3>odai.alazzeh@gmail.com</h3>
 
             </div>
