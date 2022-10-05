@@ -49,7 +49,7 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Odai**
 
-- GitHub: [@githubhandle](https://github.com/odaialazzeh)
+- GitHub: [odaialazzeh](https://github.com/odaialazzeh)
 
 
 ## 🤝 Contributing
