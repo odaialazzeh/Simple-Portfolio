@@ -64,9 +64,13 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+A list of resources that i find helpful and would like to give credit to :
+
+- [Microverse ](https://www.microverse.org)
+- [GitHub ](https://www.github.com)
+- [Youtube ](https://www.youtube.com)
+- [W3schools ](https://www.w3schools.com)
+- [Stackoverflow ](https://stackoverflow.com)
 
 ## 📝 License
 
