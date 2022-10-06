@@ -13,7 +13,7 @@
 
 ## Screenshot
 
-![mobile-setup-portfolio](images/screen.png)
+![mobile-setup-portfolio](images-desk/screenshot.png)
 
 
 
