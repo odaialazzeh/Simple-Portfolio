@@ -4,16 +4,9 @@ body {
   color: #172b4d;
   background-image: url("images/Group 35.svg");
   background-repeat: no-repeat;
-<<<<<<< feature-4
   background-position: center 4.5em;
   font-family: "Poppins", sans-serif;
   margin: 0;
-=======
-  background-position: left 4.5em;
-  font-family: "Poppins", sans-serif;
-  margin: 0;
-  width: 23.5em;
->>>>>>> main
 }
 
 header {
@@ -35,13 +28,10 @@ nav {
   margin-top: 1em;
 }
 
-<<<<<<< feature-4
 nav ul {
   display: none;
 }
 
-=======
->>>>>>> main
 .headline h1 {
   font-size: 2em;
   text-align: center;
@@ -68,7 +58,6 @@ nav ul {
   padding: 1.2em;
 }
 
-<<<<<<< feature-4
 .imgs-desc {
   display: none;
   position: absolute;
@@ -100,58 +89,19 @@ nav ul {
   position: absolute;
   left: 1em;
   top: 5em;
-=======
-.imgs {
-  position: absolute;
-}
-
-.imgs #img1 {
-  position: relative;
-  top: -8em;
-  left: 18.6em;
-}
-
-.imgs #img2 {
-  position: relative;
-  right: -15em;
-  top: 22em;
-}
-
-.imgs #img3 {
-  position: relative;
-  left: -8.67em;
-  top: 17em;
-}
-
-.imgs #img4 {
-  position: relative;
-  right: 10em;
-  bottom: 6em;
->>>>>>> main
   opacity: 0.5;
 }
 
 .imgs #img5 {
-<<<<<<< feature-4
   position: absolute;
   right: 0;
-=======
-  position: relative;
-  right: -7.07em;
->>>>>>> main
   top: 7em;
 }
 
 .imgs #img6 {
-<<<<<<< feature-4
   position: absolute;
   top: 24em;
   left: 7.5em;
-=======
-  position: relative;
-  top: 15em;
-  right: 7em;
->>>>>>> main
 }
 
 #btn {
@@ -171,10 +121,7 @@ nav ul {
 }
 
 .work .container {
-<<<<<<< feature-4
   width: 20.43em;
-=======
->>>>>>> main
   display: grid;
   grid-template-columns: auto auto;
   border: 1px solid #d0d9d4;
@@ -184,11 +131,8 @@ nav ul {
 }
 
 .work .container .sub-container {
-<<<<<<< feature-4
   display: flex;
   flex-direction: column;
-=======
->>>>>>> main
   text-align: center;
   margin-top: 20em;
   border: none;
@@ -198,10 +142,7 @@ nav ul {
 
 .container-form h3 {
   margin-top: -0.5em;
-<<<<<<< feature-4
   margin-bottom: 10em;
-=======
->>>>>>> main
   font-weight: normal;
   font-size: 1.3em;
   color: #42526e;
@@ -225,20 +166,13 @@ nav ul {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-<<<<<<< feature-4
   padding: 1.25em 0.625em;
   margin: 0 auto;
   max-width: 21.875em;
-=======
-  padding: 20px 10px;
-  margin: 0 auto;
-  max-width: 350px;
->>>>>>> main
   gap: 0.5em;
   list-style-type: none;
 }
 
-<<<<<<< feature-4
 .about-me .container-about ul li {
   border: none;
   background-color: white;
@@ -248,16 +182,6 @@ nav ul {
   border-radius: 0.5em;
   font-size: small;
   font-weight: normal;
-=======
-.container-form .sub-container-form ul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  list-style: none;
->>>>>>> main
 }
 
 .work .container .sub-container ul {
@@ -266,34 +190,13 @@ nav ul {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-<<<<<<< feature-4
   padding: 1.25em 0.625em;
   margin: 0 auto;
   max-width: 21.875em;
-=======
-  padding: 20px 10px;
-  margin: 0 auto;
-  max-width: 350px;
->>>>>>> main
   gap: 0.5em;
   list-style-type: none;
 }
 
-<<<<<<< feature-4
-=======
-.about-me .container-about ul li {
-  display: inline-block;
-  border: none;
-  background-color: white;
-  color: #36b37e;
-  margin-bottom: 0.5em;
-  padding: 0.5em 1em;
-  border-radius: 0.5em;
-  font-size: small;
-  font-weight: normal;
-}
-
->>>>>>> main
 .work .container .sub-container ul li {
   border: none;
   background-color: #ebf0ee;
@@ -342,7 +245,6 @@ nav ul {
   text-align: center;
 }
 
-<<<<<<< feature-4
 .about-imgs-desc {
   display: none;
 }
@@ -360,16 +262,6 @@ nav ul {
 .about-imgs #img8 {
   position: absolute;
   bottom: -19.5em;
-=======
-.about-me #img7 {
-  float: right;
-  margin-top: -8em;
-}
-
-.about-me #img8 {
-  float: left;
-  margin-top: -5em;
->>>>>>> main
 }
 
 .about-me .container-about {
@@ -403,7 +295,6 @@ nav ul {
   width: 20.44em;
 }
 
-<<<<<<< feature-4
 .sub-container-form ul {
   display: flex;
   flex-direction: row;
@@ -414,8 +305,6 @@ nav ul {
   list-style: none;
 }
 
-=======
->>>>>>> main
 .container-form #Full-name {
   border: 1px solid #d0d9d4;
   width: 20.43em;
@@ -433,13 +322,10 @@ nav ul {
   margin-bottom: 1em;
 }
 
-<<<<<<< feature-4
 .input-name {
   display: none;
 }
 
-=======
->>>>>>> main
 .container-form textarea {
   border: 1px solid #d0d9d4;
   width: 20.43em;
@@ -471,7 +357,6 @@ nav ul {
   right: 0;
   top: -9em;
 }
-<<<<<<< feature-4
 
 #img-10 {
   display: none;
@@ -766,5 +651,3 @@ nav ul {
     border-bottom: 2px solid #dfe1e6;
   }
 }
-=======
->>>>>>> main
