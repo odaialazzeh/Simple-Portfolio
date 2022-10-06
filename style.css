@@ -517,6 +517,7 @@ nav ul {
     margin-top: 10em;
     justify-content: center;
     position: relative;
+    border-bottom: 2px solid #dfe1e6;
   }
 
   form {
@@ -645,9 +646,5 @@ nav ul {
 
   .form-img {
     display: none;
-  }
-
-  .sub-container-form {
-    border-bottom: 2px solid #dfe1e6;
   }
 }
