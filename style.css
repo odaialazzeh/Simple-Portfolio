@@ -126,7 +126,7 @@ nav ul {
 
 .work h2:hover {
   transform:rotate(90deg);
-  transition-duration: 4s;
+  transition-duration: 5s;
 }
 
 .work #img10 {
