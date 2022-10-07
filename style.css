@@ -124,6 +124,11 @@ nav ul {
   margin: 0 1em 0;
 }
 
+.work h2:hover {
+  transform:rotate(90deg);
+  transition-duration: 4s;
+}
+
 .work #img10 {
   display: block;
   margin: 1em auto 3em;
