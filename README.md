@@ -75,5 +75,5 @@ A list of resources that i find helpful and would like to give credit to :
 
 ## 📝 License
 
-This project is [MIT](https://github.com/odaialazzeh/Portfolio/blob/main/LICENSE) licensed.
+This project is [MIT](https://github.com/odaialazzeh/Portfolio/blob/main/License) licensed.
 
