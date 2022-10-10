@@ -15,7 +15,8 @@
 
 ![mobile-setup-portfolio](images-desk/screenshot.png)
 
-
+## Go Live 
+https://odaialazzeh.github.io/Portfolio/
 
 
 ## Getting Started
