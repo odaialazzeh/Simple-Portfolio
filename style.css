@@ -19,6 +19,12 @@ header h1 {
   font-size: 1.2em;
 }
 
+header h1:hover {
+  transform: rotate(360deg);
+  transition-duration: 3s;
+  color: #36b37e;
+}
+
 header a {
   text-decoration: none;
   color: #172b4d;
