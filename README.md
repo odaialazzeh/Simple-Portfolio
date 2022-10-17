@@ -10,6 +10,7 @@
 ## Built With
 
 - HTML & CSS
+- JavaScript
 
 ## Screenshot
 
