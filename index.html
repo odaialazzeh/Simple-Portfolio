@@ -10,16 +10,17 @@
 <body>
         <header class="toolbar">
             <a href="#" aria-label="logo"><h1>Welcome</h1></a>
+            <img id="ham" src="images/Icon - Menu.svg" alt="">
             <nav>
+                <img id="exit" src="images/Icon - Cancel.svg" alt="exit">
                 <ul>
-                    <li><a href="#" aria-label="Portfolio">Portfolio</a></li>
-                    <li><a href="#" aria-label="About">About</a></li>
-                    <li><a href="#" aria-label="contact">contact</a></li>
+                    <li><a id="Portfolio-nav" href="#Portfolio" aria-label="Portfolio">Portfolio</a></li>
+                    <li><a id="about-nav" href="#about" aria-label="About">About</a></li>
+                    <li><a id="contact-nav" href="#contact" aria-label="contact">contact</a></li>
                 </ul>
-                <img src="images/Icon - Menu.svg" alt="">
             </nav>
         </header>
-        <div class="hero">
+        <div class="hero" id="Portfolio">
             <div class="imgs-desc"> 
                 <img id="img1" src="images-desk/Frame.svg" alt="">
                 <img id="img2" src="images-desk/Frame-2.svg" alt="">
@@ -138,7 +139,7 @@
             </section>
 
             <section>
-                <div class="about-me">
+                <div id="about" class="about-me">
                 <div>
                     <h2>About me</h2>
                     <div class="about-imgs-desc">
@@ -206,7 +207,7 @@
                         <img id="img-11" src="images-desk/Frame-11.svg" alt="">
                         <img id="img-12" src="images-desk/Frame-12.svg" alt="">
                
-                        <form action="https://formspree.io/f/mnqrvglb" method="post">
+                        <form action="https://formspree.io/f/mnqrvglb" method="post" id="contact">
 
                             <input type="text" name="full name" id="Full-name" placeholder="Full name" minlength="1" maxlength="30" required>
                             <div class="input-name">
@@ -234,8 +235,6 @@
 
             </div>
         </footer>
-
-
-            
+        <script src="function.js"></script>          
 </body>
 </html>
