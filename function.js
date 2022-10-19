@@ -162,7 +162,7 @@ div1.id = 'Tcontainer';
 
 const fragmentDiv = document.createDocumentFragment();
 
-for (let y = 0; y < 6; y += 1) {
+for (let y = 0; y < 8; y += 1) {
   const divCards = document.createElement('div');
   divCards.className = 'container';
   const divCards1 = document.createElement('div');
