@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap');
 
 body {
   color: #172b4d;
@@ -23,6 +23,131 @@ header h1:hover {
   transform: rotate(360deg);
   transition-duration: 3s;
   color: #36b37e;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(88, 86, 86, 0.7);
+  z-index: 999;
+  cursor: pointer;
+}
+
+.popup {
+  background: white;
+  border-radius: 0.5em;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  color: #172b4d;
+  visibility: hidden;
+  height: 57em;
+}
+
+.open-popup {
+  background: white;
+  margin: 50% auto;
+  position: absolute;
+  top: 100%;
+  visibility: visible;
+  transform: translate(-50%, -50%) scale(1);
+  border: 1px solid #dfe1e6;
+  padding: 1em;
+  z-index: 999;
+}
+
+.open-popup #imgExit {
+  position: absolute;
+  right: 1.7em;
+  top: 1.5em;
+  width: 2.5em;
+  height: 2.5em;
+  cursor: pointer;
+}
+
+.popup img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 13.75em;
+  width: 20em;
+  margin: 0 auto;
+}
+
+.popup ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: -2.5em;
+  list-style: none;
+}
+
+.popup li {
+  border-radius: 0.5em;
+  border: none;
+  background: #ebf0ee;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+.popup h1 {
+  text-align: left;
+  margin-left: 0.5em;
+  font-weight: 600;
+}
+
+.popup p {
+  text-align: left;
+  margin-left: 0.9em;
+}
+
+.popup .links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.popup a {
+  border-radius: 0.3em;
+  border: none;
+  background: #36b37f;
+  margin: 0.5em;
+  padding: 0.3em;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.popup a img {
+  margin: 0.3em 0.3em;
+  width: 1em;
+  height: 1em;
+  float: right;
+}
+
+.popup #imgD {
+  display: none;
+}
+
+.popup #imgD1 {
+  display: none;
+}
+
+#secondUL {
+  display: none;
 }
 
 header a {
@@ -717,5 +842,103 @@ nav.menu-btn ul li {
 
   .form-img {
     display: none;
+  }
+
+  .open-popupD {
+    background: white;
+    margin: 50% auto;
+    position: absolute;
+    top: 100%;
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+    border: 1px solid #dfe1e6;
+    padding: 1em;
+    z-index: 999;
+    height: 65em;
+  }
+
+  .popup img {
+    display: none;
+  }
+
+  .popup ul {
+    display: none;
+  }
+
+  .open-popupD #imgD {
+    display: block;
+    margin: 0 auto;
+    width: 54.5em;
+    height: 38.5em;
+  }
+
+  .open-popupD #imgD1 {
+    display: block;
+    float: right;
+    width: 2em;
+    height: 2em;
+    margin-bottom: 0.5em;
+    cursor: pointer;
+  }
+
+  .open-popupD #secondUL {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: -2.5em;
+    list-style: none;
+  }
+
+  .open-popupD li {
+    border-radius: 0.5em;
+    border: none;
+    background: #ebecf0;
+    margin-right: 0.1em;
+    padding: 0.3em;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 500;
+  }
+
+  .popup h1 {
+    text-align: left;
+    margin-left: 0.1em;
+    margin-right: 10em;
+    font-weight: 600;
+  }
+
+  .popup p {
+    text-align: left;
+    margin: 0.2em;
+  }
+
+  .popup .links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: -19em auto;
+  }
+
+  .popup a {
+    border-radius: 0.3em;
+    border: none;
+    background: #36b37f;
+    margin: 0.5em;
+    padding: 0.5em;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+  }
+
+  .popup a img {
+    display: block;
+    margin: 0.3em 0.3em;
+    width: 1em;
+    height: 1em;
+    float: right;
   }
 }
