@@ -130,6 +130,7 @@ closeM.addEventListener('click', closePopup);
 /* popup window for Desktop-version */
 
 const x1 = window.matchMedia('(min-width: 769px)');
+
 function openPopupD() {
   if (x1.matches) {
     pop.classList.add('open-popupD');
@@ -145,3 +146,52 @@ function closePopupD() {
   document.getElementById('overlay').style.display = 'none';
 }
 closeD.addEventListener('click', closePopupD);
+
+/* cards */
+
+const cards = {
+  heading: 'Multi-Post Stories Gain+Glory',
+  technologies: [
+    'Ruby on rails', 'css', 'JavScript', 'html'],
+  link: ['#popup', 'See Project'],
+};
+
+const div1 = document.createElement('div');
+div1.className = 'main-container';
+div1.id = 'Tcontainer';
+
+const fragmentDiv = document.createDocumentFragment();
+
+for (let y = 0; y < 6; y += 1) {
+  const divCards = document.createElement('div');
+  divCards.className = 'container';
+  const divCards1 = document.createElement('div');
+  divCards1.className = 'sub-container';
+  const h = document.createElement('h3');
+  h.textContent = `${cards.heading}`;
+  const ulCrad = document.createElement('ul');
+  const fragmentLi = document.createDocumentFragment();
+  for (let y = 0; y < 4; y += 1) {
+    const liCard = document.createElement('li');
+    liCard.textContent = `${cards.technologies[y]}`;
+    fragmentLi.appendChild(liCard);
+  }
+  const aCard = document.createElement('a');
+  aCard.href = `${cards.link[0]}`;
+  aCard.textContent = `${cards.link[1]}`;
+  aCard.id = 'seeProject';
+  aCard.setAttribute('onclick', 'openPopupD(); openPopup();');
+
+  fragmentDiv.appendChild(divCards);
+  divCards.appendChild(divCards1);
+  divCards1.appendChild(h);
+  divCards1.appendChild(ulCrad);
+  ulCrad.appendChild(fragmentLi);
+  divCards1.appendChild(aCard);
+}
+div1.appendChild(fragmentDiv);
+
+document.body.appendChild(div1);
+
+const list = document.querySelector('#img10');
+list.after(div1);
