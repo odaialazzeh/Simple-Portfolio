@@ -11,6 +11,8 @@
     },
     "extends": ["airbnb-base"],
     "rules": {
+      "no-mixed-spaces-and-tabs": 0,
+      "no-tabs": ["error", { "allowIndentationTabs": true }],
       "no-unused-vars": "off",
       "no-shadow": "off",
       "no-param-reassign": "off",
