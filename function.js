@@ -288,3 +288,16 @@ document.body.appendChild(div1);
 
 const list = document.querySelector('#img10');
 list.after(div1);
+
+/* form */
+function ValidateEmail(inputText) {
+  const mailformat = '[a-z0-9._%+-]+@[a-z0-9.-]+[a-z]{2,}$';
+  if (inputText.value.match(mailformat)) {
+    return true;
+  }
+
+  const errorM = document.getElementById('error');
+  errorM.innerHTML = 'The email format is invalid';
+  document.form1.text1.focus();
+  return false;
+}
