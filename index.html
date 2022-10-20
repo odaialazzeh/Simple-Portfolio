@@ -129,17 +129,17 @@
                         <img id="img-11" src="images-desk/Frame-11.svg" alt="">
                         <img id="img-12" src="images-desk/Frame-12.svg" alt="">
                
-                        <form action="https://formspree.io/f/mnqrvglb" method="post">
+                        <form action="https://formspree.io/f/mnqrvglb" method="post" name="form1" id="formID">
 
                             <input type="text" name="full name" id="Full-name" placeholder="Full name" minlength="1" maxlength="30" required>
                             <div class="input-name">
                                 <input type="text" name="First Name" id="First-Name" placeholder="First Name" minlength="1" maxlength="30" required>
                                 <input type="text" name="Last Name" id="Last-Name" placeholder="Last Name" minlength="1" maxlength="30" required>
                             </div>
-                            <input type="email" name="Email address" id="email" placeholder="Email address" required  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                            <input type="email" name="text1" id="email" placeholder="Email address" required>
                             <textarea name="textarea" id="text-area" cols="30" rows="10" placeholder="Enter text here" required></textarea>
-                            <button type="submit">Get in touch</button>
-                            
+                            <button type="submit" onclick="ValidateEmail(document.form1.text1)">Get in touch</button> 
+                            <label id="error"></label>
                         </form>
                 </div>                    
                 <div class="social-media-icons">
