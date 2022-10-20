@@ -39,6 +39,15 @@ header h1:hover {
   cursor: pointer;
 }
 
+#error {
+  position: relative;
+  color: #d8000c;
+  bottom: 0.5em;
+  border: none;
+  padding-left: 2em;
+  font-size: 1.3em;
+}
+
 .popup,
 .popup1,
 .popup2,
@@ -1002,5 +1011,17 @@ nav.menu-btn ul li {
     width: 1em;
     height: 1em;
     float: right;
+  }
+
+  #error {
+    position: absolute;
+    color: #d8000c;
+    top: 10.5em;
+    right: 7em;
+    border: none;
+    padding-left: 1.5em;
+    font-size: 1.5em;
+    width: 10em;
+    border-radius: 0.5em;
   }
 }
