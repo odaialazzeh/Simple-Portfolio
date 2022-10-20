@@ -284,35 +284,33 @@ for (let y = 0; y < 4; y += 1) {
 }
 div1.appendChild(fragmentDiv);
 
-document.body.appendChild(div1); 
+document.body.appendChild(div1);
 
 const list = document.querySelector('#img10');
 list.after(div1);
 
-
-/* form vaildation*/
+/* form vaildation */
 
 if (x.matches) {
   document.getElementById('First-Name').removeAttribute('required');
   document.getElementById('Last-Name').removeAttribute('required');
 }
-if (x1.matches){
+if (x1.matches) {
   document.getElementById('Full-name').removeAttribute('required');
 }
 
 const submitForm = document.querySelector('.form1');
 
-	submitForm.addEventListener('submit', e =>{
-		e.preventDefault();
-		const email = document.getElementById('emailv').value.trim();
+submitForm.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const email = document.getElementById('emailv').value.trim();
 	    const megForError = document.querySelector('#error');
-		  const Regx =  /^[a-z]+@[a-z0-9-]+\.[a-z0-9-.]+$/;
-		
-		if( Regx.test(email) === true){
-			submitForm.submit();
-			submitForm.reset();
-		}
-		else {
-			document.querySelector('#error').textContent = 'Check your email please, Your Email Should be LowerCase letter';
-		}
-	});
+		  const Regx = /^[a-z]+@[a-z0-9-]+\.[a-z0-9-.]+$/;
+
+  if (Regx.test(email) === true) {
+    submitForm.submit();
+    submitForm.reset();
+  } else {
+    document.querySelector('#error').textContent = 'Check your email please, Your Email Should be LowerCase letter';
+  }
+});
