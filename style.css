@@ -39,7 +39,10 @@ header h1:hover {
   cursor: pointer;
 }
 
-.popup {
+.popup,
+.popup1,
+.popup2,
+.popup3 {
   background: white;
   border-radius: 0.5em;
   position: absolute;
@@ -63,7 +66,10 @@ header h1:hover {
   z-index: 999;
 }
 
-.open-popup #imgExit {
+#imgExit,
+#imgExit1,
+#imgExit2,
+#imgExit3 {
   position: absolute;
   right: 1.7em;
   top: 1.5em;
@@ -72,8 +78,11 @@ header h1:hover {
   cursor: pointer;
 }
 
-.popup img {
-  display: flex;
+.popup img,
+.popup1 img,
+.popup2 img,
+.popup3 img {
+  display: block;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -82,7 +91,10 @@ header h1:hover {
   margin: 0 auto;
 }
 
-.popup ul {
+.popup ul,
+.popup1 ul,
+.popup2 ul,
+.popup3 ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -92,7 +104,10 @@ header h1:hover {
   list-style: none;
 }
 
-.popup li {
+.popup li,
+.popup1 li,
+.popup2 li,
+.popup3 li {
   border-radius: 0.5em;
   border: none;
   background: #ebf0ee;
@@ -100,18 +115,27 @@ header h1:hover {
   padding: 0.5em;
 }
 
-.popup h1 {
+.popup h1,
+.popup1 h1,
+.popup2 h1,
+.popup3 h1 {
   text-align: left;
   margin-left: 0.5em;
   font-weight: 600;
 }
 
-.popup p {
+.popup p,
+.popup1 p,
+.popup2 p,
+.popup3 p {
   text-align: left;
   margin-left: 0.9em;
 }
 
-.popup .links {
+.popup .links,
+.popup1 .links,
+.popup2 .links,
+.popup3 .links {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -120,7 +144,10 @@ header h1:hover {
   margin: 0 auto;
 }
 
-.popup a {
+.popup a,
+.popup1 a,
+.popup2 a,
+.popup3 a {
   border-radius: 0.3em;
   border: none;
   background: #36b37f;
@@ -131,18 +158,25 @@ header h1:hover {
   text-align: center;
 }
 
-.popup a img {
+.popup a img,
+.popup1 a img,
+.popup2 a img,
+.popup3 a img {
   margin: 0.3em 0.3em;
   width: 1em;
   height: 1em;
   float: right;
 }
 
-.popup #imgD {
+#imgsd,
+#imgsd1 {
   display: none;
 }
 
-.popup #imgD1 {
+#imgx,
+#imgx1,
+#imgx2,
+#imgx3 {
   display: none;
 }
 
@@ -293,6 +327,7 @@ nav.menu-btn ul li {
 
 .work .container {
   width: 20.43em;
+  height: 40em;
   display: grid;
   grid-template-columns: auto auto;
   border: 1px solid #d0d9d4;
@@ -303,9 +338,13 @@ nav.menu-btn ul li {
 
 .work .container .sub-container {
   display: flex;
-  flex-direction: column;
-  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   margin-top: 20em;
+  width: 100%;
+  text-align: center;
   border: none;
   border-radius: 0.5em;
   background-color: white;
@@ -418,9 +457,7 @@ nav.menu-btn ul li {
   height: 25px;
   color: white;
   text-decoration: none;
-  display: block;
   text-align: center;
-  margin: 1.4em auto;
   border-radius: 0.5em;
 }
 
@@ -858,22 +895,32 @@ nav.menu-btn ul li {
     height: 65em;
   }
 
-  .popup img {
+  .popup img,
+  .popup1 img,
+  .popup2 img,
+  .popup3 img {
     display: none;
   }
 
-  .popup ul {
+  .popup ul,
+  .popup1 ul,
+  .popup2 ul,
+  .popup3 ul {
     display: none;
   }
 
-  .open-popupD #imgD {
+  #imgsd,
+  #imgsd1 {
     display: block;
     margin: 0 auto;
     width: 54.5em;
     height: 38.5em;
   }
 
-  .open-popupD #imgD1 {
+  #imgx,
+  #imgx1,
+  #imgx2,
+  #imgx3 {
     display: block;
     float: right;
     width: 2em;
@@ -903,28 +950,39 @@ nav.menu-btn ul li {
     font-weight: 500;
   }
 
-  .popup h1 {
+  .popup h1,
+  .popup1 h1,
+  .popup2 h1,
+  .popup3 h1 {
     text-align: left;
     margin-left: 0.1em;
     margin-right: 10em;
     font-weight: 600;
   }
 
-  .popup p {
+  .popup p,
+  .popup1 p,
+  .popup2 p,
+  .popup3 p {
     text-align: left;
     margin: 0.2em;
   }
 
-  .popup .links {
+  .popup .links,
+  .popup1 .links,
+  .popup2 .links,
+  .popup3 .links {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-end;
     align-items: flex-end;
-    margin: -19em auto;
+    margin: -16em auto;
   }
 
-  .popup a {
+  .popup a,
+  .popup1 a.popup2 a,
+  .popup3 a {
     border-radius: 0.3em;
     border: none;
     background: #36b37f;
@@ -935,7 +993,10 @@ nav.menu-btn ul li {
     text-align: center;
   }
 
-  .popup a img {
+  .popup a img,
+  .popup1 a img,
+  .popup2 a img,
+  .popup3 a img {
     display: block;
     margin: 0.3em 0.3em;
     width: 1em;
