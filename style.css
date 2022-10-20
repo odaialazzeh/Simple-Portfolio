@@ -40,12 +40,15 @@ header h1:hover {
 }
 
 #error {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: -1em;
   color: #d8000c;
   bottom: 0.5em;
   border: none;
   padding-left: 2em;
   font-size: 1.3em;
+  width: 10em;
 }
 
 .popup,
@@ -1014,14 +1017,14 @@ nav.menu-btn ul li {
   }
 
   #error {
-    position: absolute;
+    display: flex;
+    margin-top: -7em;
+    margin-left: 3.5em;
     color: #d8000c;
-    top: 10.5em;
-    right: 7em;
     border: none;
     padding-left: 1.5em;
     font-size: 1.5em;
-    width: 10em;
+    width: 20em;
     border-radius: 0.5em;
   }
 }
