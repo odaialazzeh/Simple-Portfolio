@@ -305,7 +305,7 @@ submitForm.addEventListener('submit', (e) => {
   e.preventDefault();
   const email = document.getElementById('emailv').value.trim();
 	    const megForError = document.querySelector('#error');
-		  const Regx = /^[a-z]+@[a-z0-9-]+\.[a-z0-9-.]+$/;
+		  const Regx = /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+[?:\.a-z0-9-]*$/;
 
   if (Regx.test(email) === true) {
     submitForm.submit();
