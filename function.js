@@ -22,7 +22,7 @@ contactBtn.addEventListener('click', display);
 
 const popup = {
   name: 'popup',
-  img: ['images/SnapshootPortfolio.svg', 'images/Icon-Cancel-pop.svg', 'images/Disable-pop.svg', 'images/SnapshootPortfolio1.PNG'],
+  img: ['images/SnapshootPortfolio.svg', 'images/Icon-Cancel-pop.svg', 'images/Disable-pop.svg', 'images/SnapshootPortfolio1.png'],
   imgId: ['imgs', 'imgExit', 'imgx', 'imgsd'],
   heading: 'Keeping track of hundreds of components',
   technologies: ['Ruby on rails', 'css', 'JavScript'],
