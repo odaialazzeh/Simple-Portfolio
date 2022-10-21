@@ -289,8 +289,6 @@ document.body.appendChild(div1);
 const list = document.querySelector('#img10');
 list.after(div1);
 
-
-
 /* form vaildation */
 
 if (x.matches) {
@@ -319,12 +317,12 @@ submitForm.addEventListener('submit', (e) => {
 
 /* local storage */
 
-const firstName = document.getElementById('First-Name')
-const lastName = document.getElementById('Last-Name')
-const fullName = document.getElementById('Full-name')
-const emailAdd = document.getElementById('emailv')
-const paragraph = document.getElementById('text-area')
-const formid = document.getElementById('forms')
+const firstName = document.getElementById('First-Name');
+const lastName = document.getElementById('Last-Name');
+const fullName = document.getElementById('Full-name');
+const emailAdd = document.getElementById('emailv');
+const paragraph = document.getElementById('text-area');
+const formid = document.getElementById('forms');
 
 formid.addEventListener('change', () => {
   const store = {
@@ -332,7 +330,7 @@ formid.addEventListener('change', () => {
     lastname: document.getElementById('Last-Name').value,
     email: document.getElementById('emailv').value,
     fullname: document.getElementById('Full-name').value,
-    p: document.getElementById('text-area').value
+    p: document.getElementById('text-area').value,
   };
 
   localStorage.setItem('inputs', JSON.stringify(store));
@@ -350,5 +348,3 @@ window.addEventListener('load', () => {
     paragraph.value = DataValue.p;
   }
 });
-
-
