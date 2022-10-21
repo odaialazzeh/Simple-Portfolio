@@ -289,6 +289,8 @@ document.body.appendChild(div1);
 const list = document.querySelector('#img10');
 list.after(div1);
 
+
+
 /* form vaildation */
 
 if (x.matches) {
@@ -314,3 +316,39 @@ submitForm.addEventListener('submit', (e) => {
     document.querySelector('#error').textContent = 'Check your email please, Your Email Should be LowerCase letter';
   }
 });
+
+/* local storage */
+
+const firstName = document.getElementById('First-Name')
+const lastName = document.getElementById('Last-Name')
+const fullName = document.getElementById('Full-name')
+const emailAdd = document.getElementById('emailv')
+const paragraph = document.getElementById('text-area')
+const formid = document.getElementById('forms')
+
+formid.addEventListener('change', () => {
+  const store = {
+    firstname: document.getElementById('First-Name').value,
+    lastname: document.getElementById('Last-Name').value,
+    email: document.getElementById('emailv').value,
+    fullname: document.getElementById('Full-name').value,
+    p: document.getElementById('text-area').value
+  };
+
+  localStorage.setItem('inputs', JSON.stringify(store));
+});
+
+const Data = localStorage.getItem('inputs');
+const DataValue = JSON.parse(Data);
+
+window.addEventListener('load', () => {
+  if (localStorage.getItem('inputs')) {
+    firstName.value = DataValue.firstname;
+    lastName.value = DataValue.lastname;
+    fullName.value = DataValue.fullname;
+    emailAdd.value = DataValue.email;
+    paragraph.value = DataValue.p;
+  }
+});
+
+
