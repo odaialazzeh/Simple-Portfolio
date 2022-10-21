@@ -330,7 +330,7 @@ formid.addEventListener('change', () => {
     lastname: document.getElementById('Last-Name').value,
     email: document.getElementById('emailv').value,
     fullname: document.getElementById('Full-name').value,
-    p: document.getElementById('text-area').value,
+    message: document.getElementById('text-area').value,
   };
 
   localStorage.setItem('inputs', JSON.stringify(store));
@@ -338,13 +338,13 @@ formid.addEventListener('change', () => {
 
 const Data = localStorage.getItem('inputs');
 const DataValue = JSON.parse(Data);
-
+/* get the value of input aftre load the page */
 window.addEventListener('load', () => {
   if (localStorage.getItem('inputs')) {
     firstName.value = DataValue.firstname;
     lastName.value = DataValue.lastname;
     fullName.value = DataValue.fullname;
     emailAdd.value = DataValue.email;
-    paragraph.value = DataValue.p;
+    paragraph.value = DataValue.message;
   }
 });
