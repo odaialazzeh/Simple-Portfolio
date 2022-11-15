@@ -76,6 +76,7 @@ header h1:hover {
   border: 1px solid #dfe1e6;
   padding: 1em;
   z-index: 999;
+  height: 50em;
 }
 
 #imgExit,
@@ -178,6 +179,10 @@ header h1:hover {
   width: 1em;
   height: 1em;
   float: right;
+}
+
+#imgs {
+  margin-bottom: 5em;
 }
 
 #imgsd,
@@ -343,23 +348,29 @@ nav.menu-btn ul li {
   display: grid;
   grid-template-columns: auto auto;
   border: 1px solid #d0d9d4;
-  background-color: #d0d9d4;
   margin: 1.5em;
   border-radius: 0.5em;
 }
 
 .work .container .sub-container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
-  margin-top: 20em;
-  width: 100%;
+  width: 20.43em;
   text-align: center;
   border: none;
   border-radius: 0.5em;
   background-color: white;
+  
+}
+
+
+.sub-container img{
+  height: 20em;
+  width: 20.3em;
+  border: none;
+  border-radius: 0.5em;
 }
 
 .container-form h3 {
@@ -388,7 +399,8 @@ nav.menu-btn ul li {
 .work .container .sub-container h3 {
   color: #3a4a42;
   font-size: 1.5em;
-  margin: 0.5em 2em 0.5em;
+  margin: 2em 2em 1em;
+  width: 20em;
 }
 
 .about-me .container-about ul {
@@ -422,7 +434,7 @@ nav.menu-btn ul li {
   justify-content: center;
   align-items: center;
   padding: 1.25em 0.625em;
-  margin: 0 auto;
+  margin-top: 1em;
   max-width: 21.875em;
   gap: 0.5em;
   list-style-type: none;
@@ -611,6 +623,8 @@ nav.menu-btn ul li {
   display: none;
 }
 
+
+
 @media only screen and (min-width: 768px) {
   body {
     background-image: url("images-desk/backgorung-desktop.svg");
@@ -741,6 +755,21 @@ nav.menu-btn ul li {
     align-content: center;
   }
 
+  .container {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .sub-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: flex-start;
+  }
+
+
+  
   .container-form h3 {
     display: none;
   }
@@ -766,6 +795,7 @@ nav.menu-btn ul li {
     position: relative;
     border-bottom: 2px solid #dfe1e6;
   }
+
 
   .sub-container-form form {
     display: grid;
@@ -805,7 +835,7 @@ nav.menu-btn ul li {
   }
 
   .main-container .container {
-    width: 369px;
+    width: 20.43em;
     margin: 1em;
   }
 
@@ -924,7 +954,7 @@ nav.menu-btn ul li {
   #imgsd,
   #imgsd1 {
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 7em auto;
     width: 54.5em;
     height: 38.5em;
   }
